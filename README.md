@@ -1,9 +1,8 @@
-![](https://img.shields.io/badge/Math-Magician-v1.0.0-blue.svg)
+![](https://img.shields.io/badge/Book-store-v1.0.0-blue.svg)
 
-# Math-magician
+# Book-store
 
-> this project is a simple calculator that does the functions of a calulator and it is done using react.
-
+> this project is a simple Book store that shows the list of books added and users can add a new book, and it is done using react.
 
 ## Built With
 
@@ -16,22 +15,23 @@
 
 [Coming soon]("#")
 
-
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+
 - [Node.js](https://nodejs.org/)
 - [npm](https://www.npmjs.com/)
 
 ### Setup
+
 - Clone the repository ` git clone https://github.com/betses/math-magician-react.git
 
 ### Install
+
 - `npm install`
 - `npm start`
-
 
 ## Author
 
@@ -49,7 +49,7 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-    
+
 ![](https://img.shields.io/badge/stars-0.0.1-brightgreen.svg)
 
 ## 📝 License
