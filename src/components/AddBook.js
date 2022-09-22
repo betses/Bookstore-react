@@ -27,7 +27,7 @@ function AddBook() {
           <input placeholder="Book title" className="px-7 py-2 border border-#94a3b8 md:w-1/3" name="title" required />
           <input placeholder="Author" className="px-7 py-2 border border-#94a3b8 md:w-1/3" name="author" required />
           <input placeholder="Category" className="px-7 py-2 border border-#94a3b8 md:w-1/3" name="category" required />
-          <button type="submit" className="md:w-1/3 bg-blue-800 text-white rounded py-2">ADD BOOK</button>
+          <button type="submit" className="md:w-1/3 bg-regal-blue text-white rounded py-2">ADD BOOK</button>
         </form>
       </div>
     </>

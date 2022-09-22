@@ -51,7 +51,7 @@ function Book(props) {
               <div className="w-max">
                 <h3 className="text-base font-semibold text-slate-500 ">Current Chapter</h3>
                 <h2 className="text-2xl font-bold my-3">Chapter 17</h2>
-                <button type="button" className="bg-sky-400 text-white rounded py-2 px-16 mt-2px">Update Progress</button>
+                <button type="button" className="bg-regal-blue text-white rounded py-2 px-16 mt-2px">Update Progress</button>
               </div>
             </div>
           </div>
