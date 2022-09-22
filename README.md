@@ -7,8 +7,9 @@
 ## Built With
 
 - [React](https://reactjs.org/)
+- Redux
 - HTML5
-- CSS3
+- [Tailwind](https://tailwindcss.com/)
 - JavaScript
 
 ## Live Demo
@@ -26,7 +27,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
-- Clone the repository ` git clone https://github.com/betses/math-magician-react.git
+- Clone the repository ` git clone https://github.com/betses/Bookstore-react.git
 
 ### Install
 
