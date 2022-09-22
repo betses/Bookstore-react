@@ -1,31 +1,42 @@
+import { v4 as uuidv4 } from 'uuid';
+
 const ADD_BOOK = 'bookstore/books/addBook';
 const REMOVE_BOOK = 'bookstore/books/removeBook';
-const initialState = [];
 
-const bookReducer = (state = initialState, action) => {
+const allBooks = {
+  books: [
+    {
+      id: uuidv4(),
+      title: 'The power of Habit',
+      author: 'James Clear',
+    },
+  ],
+};
+
+const addBook = (book) => ({
+  type: ADD_BOOK,
+  payload: book,
+});
+
+const removeBook = (book) => ({
+  type: REMOVE_BOOK,
+  book,
+});
+
+const bookReducer = (state = allBooks, action) => {
   switch (action.type) {
     case ADD_BOOK:
-      return [...state, action.book];
+      return {
+        books: [...state.books, action.payload],
+      };
     case REMOVE_BOOK:
-      return [...state.filter((i) => i.title !== action.book.title)];
+      return {
+        books: [...state.books.filter((i) => i.id !== action.book.id)],
+      };
     default:
       return state;
   }
 };
-
-const addBook = () => ({
-  type: ADD_BOOK,
-  book: {
-    title: 'the power of Habit',
-  },
-});
-
-const removeBook = () => ({
-  type: REMOVE_BOOK,
-  book: {
-    title: 'the power of Habit',
-  },
-});
 
 export default bookReducer;
 export { addBook, removeBook };
